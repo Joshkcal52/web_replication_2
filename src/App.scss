@@ -1,0 +1,77 @@
+.App {
+  .mainWrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    height: 100vw;
+    width: 100vw;
+    border: 2px solid black;
+    background-color: #737373;
+  }
+  .Profile {
+    display: flex;
+    border: 2px solid black;
+    height: 250px;
+    width: 15rem;
+    flex-direction: column;
+    background-color: #3730a3;
+    align-items: center;
+    margin-top: 90%;
+    row-gap: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .Avatar {
+      display: flex;
+      vertical-align: middle;
+      width: 100px;
+      height: 100px;
+      border: 2px solid black;
+      border-radius: 100%;
+      margin: 10px;
+      background-color: white;
+    }
+    .Title {
+      display: flex;
+      width: 42%;
+      height: 60px;
+      border: 2px solid black;
+      margin-top: 10px;
+      margin-right: 5px;
+      background-color: #94a3b8;
+      // align-items: center;
+      // justify-content: center;
+      flex-direction: column;
+      p {
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-block-start: 0.5em;
+        margin-block-end: 0em;
+        margin-inline-start: 10px;
+        margin-inline-end: 0px;
+        font-size: 0.75em;
+        font-weight: 600;
+      }
+    }
+    .Wrapper {
+      display: flex;
+      flex-direction: row;
+      width: 99%;
+      height: 50%;
+    }
+    .Description {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid black;
+      height: 40%;
+      width: 90%;
+      background-color: #94a3b8;
+      font-family: cursive, lucida;
+      font-size: 1rem;
+      padding-left: 8px;
+    }
+  }
+}
